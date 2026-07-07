@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<head>
+    <!--first stage-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Amr Sherif Portfolio" />
+</head>
+
+<body>
+
+    <header>
+        <img src="./photos/icon_68eed5382e30c.webp" alt="photo" width="70" height="70">
+        <h2>Amr web</h2> 
+    </header>
+    <hr>
+    <nav>
+        <a href="#me">about</a>
+        <a href="#skills">skills</a>
+        <a href="#contact">contact us</a>
+    </nav>
+    <hr>
+        <!--third stage-->
+    <main id="me">
+        <h1>Hi i am Amr Sherif</h1>
+        <p>i'm a <mark>CS student</mark>  and i have studied c++,java and i'm studying HTML now </p>
+        <img src="./photos/3d-character-man-working-and-studying-on-laptop-computer.webp" alt="photo" height="150" width="150"/>
+    </main>
+    <hr>
+        <!--fourth stage-->
+    <section id="skills">
+        <ul>
+          <h2>my skills</h2>
+            <em>
+             <li>self learning</li>
+             <li>time managment</li>
+             <li>adaption</li>
+            </em>
+        </ul>
+        <ol>
+          <h2>my journey in frontend</h2>
+            <strong>
+                <li><mark>HTML</mark></li>
+                <li>CSS</li>
+                <li>JAVA SCRIPT</li>
+                <LI>REACT</LI>
+            </strong>
+        </ol>
+    </section>
+    <hr>
+        <!--fifth stage-->
+    <section id="courses">
+        <table border="1">
+            <caption>My Courses</caption>
+            <thead>
+                <tr>
+                    <td>Course name</td>
+                    <td>Duration</td>
+                    <td>state</td>
+                </tr>
+
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>one weeks</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Two weeks</td>
+                        <td>80%</td>
+                    </tr>
+                </tbody>
+                
+                <tfoot>
+                    <tr>
+                        <td>Total Duration :</td>
+                        <td colspan="2">three weeks</td>
+                    </tr>
+                </tfoot>
+            </thead>
+        </table>
+    </section>
+        <!--stage six-->
+    <section class="gallery">
+        <table>
+            <caption>gallery</caption>
+            <tbody>
+                <tr>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                </tr>
+                <tr>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                </tr>
+                <tr>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                    <td><img src="./photos/open-laptop-with-black-screen-against-black-background.webp" width="60" height="60" alt="labtop"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+<hr>
+    <div class="form">
+        <form>
+            <fieldset>
+                <legend>contact form</legend>
+                
+                <label>Name :</label>
+                <input type="text" required>
+                <br>
+                <label>Email :</label>
+                <input type="email" required>
+                <br>
+                <label>phone number :</label>
+                <input type="tel" required>
+                <br>
+                <label>birth date</label>
+                <input type="date" required> <br>
+
+                <label>text area :</label>
+                <br>
+                <textarea placeholder="max 400 character"></textarea>
+                <br>
+                <label>topics :</label>
+                <select name="topic" id="topics">
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JAVA SCRIPT">JAVA SCRIPT</option>
+                            <option value="REACT">REACT</option>
+                </select>
+                <br>
+                <label>best contact way ?</label>
+                <br>
+                <input type="radio" name="contact" id="num1" value="Email">
+                <label for="num1">Email</label>
+                <input type="radio" name="contact" id="num2" value="Phone">
+                <label for="num2">Phone</label> <br>
+
+                <label>are you agree on our terms?</label>
+                <input type="checkbox" name="yes" id="num3" value="yes"> <br><br>
+
+                <input type="submit" value="submit">
+                 <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+    </div>
+<br>
+<hr>
+<p>FAQ</p>
+    <div class="FAQ">
+            <a href="#me">who am i ?</a> 
+            <br>
+            <a href="#skills">what is my skills ?</a>
+    </div>
+<hr>
+    <footer id="contact">
+        <h4>contact me</h4>
+        <a href="tel:01212093604" target="_blank">Phone Number</a>
+        <a href="mailto:osherif920@gmail.com" target="_blank">Email</a>
+        <a href="https://github.com/Amrsherif999/tasks" target="_blank">github</a>
+    </footer>
+</body>
+</html>
