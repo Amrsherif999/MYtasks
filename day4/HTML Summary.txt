@@ -1,0 +1,38 @@
+HTML Summary :
+HTML (HyperText Markup Language) is the standard markup language used to create web pages and it work with CSS for styling.
+it is like a human skeleton .
+
+
+
+
+
+Most Important HTML lines :
+1- <!DOCTYPE html> All HTML projects must start with a document type declaration to work on latest version of HTML.
+2- The HTML project begins with <html> and ends with </html>.
+3- then <head> and </head> to write meta tags and title in it and it is the only place to write them in.
+4- then <body> and </body> to write the rest of the code in it like header and main and footer of all the visible content.
+
+
+meta tags. there are many of them but these is the most important :
+1. <meta charset="UTF-8"> Specifies the character encoding of the webpage.
+2. <meta name="viewport" content="width=device-width, initial-scale=1.0"> Makes the webpage responsive on different screen sizes.
+
+
+HTML Tags. some of them:
+1- <h1> to <h6> it Used to define headings of different levels.
+2- <p> Used to define paragraphs of text.
+3- <a> Anchor Element used for Creates hyperlinks to other web pages or resources.
+4- <form> to make a Form.
+5- <input> to make an Input field the user will input info in it.
+6- <label> Label for form elements.
+7- <div> Block level container.
+8- <span> Inline container.
+
+
+professional tips from a professional engineer :
+1- organize your project files from the beginning.  like HTML,CSS,JS,REACT .
+2- the tag you open with your right hand close it with left hand.
+3- Keep your DOM tree clean and well organized.
+4- know about every topic and not all topics in many fields.
+5- always search and learn from multiple sources.
+6- try to solve bugs and syntax errors. it is a new fun and learning way not just writing code. 
