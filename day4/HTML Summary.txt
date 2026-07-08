@@ -3,9 +3,6 @@ HTML (HyperText Markup Language) is the standard markup language used to create 
 it is like a human skeleton .
 
 
-
-
-
 Most Important HTML lines :
 1- <!DOCTYPE html> All HTML projects must start with a document type declaration to work on latest version of HTML.
 2- The HTML project begins with <html> and ends with </html>.
