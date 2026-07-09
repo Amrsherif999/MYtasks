@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Restaurant</title>
+    <meta name="description" content="it is a pizza Restaurant"/>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#">Main</a>
+        <a href="#order">Make an Order</a>
+        <a href="tel:01212093604">Contact Us</a>
+    </div>
+
+    <div class="header">
+        <h1>Black Goose Bistro | Pizza-on-Demand</h1>
+        <p>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an hour</p>
+    </div> 
+    
+    <div class="form_section">
+        <form>
+            <fieldset>
+                <legend>Your Information</legend>
+                <label>Name</label>
+                <input type="text" required> 
+                <br>
+                <label>Address :</label>
+                <input type="text" required>
+                <br>
+                <label>Telephone Number :</label>
+                <input type="tel" required>
+                <br>
+                <label>Email :</label>
+                <input type="email" required>
+                <br>
+                <label>Delivery Instruction :</label>
+                <br>
+                <textarea type="text" rows="4" cols="40" placeholder="No more than 400 character long"></textarea>
+            </fieldset>
+    </div>
+
+    <div class="main" id="order">
+        <div class="Design_section">
+                <h2>Design Your Dream Pizza:</h2>
+                    <fieldset>
+                        <legend><h3>Pizza specs</h3></legend>
+                            
+                        <div class="crust">
+                                <fieldset>
+                                    <legend>Crust(Choose one)</legend>
+                                    <input type="radio" name="pizza" id="choice_1" value="classic White">
+                                    <label for="choice_1">classic White</label>
+                                    <br>
+                                    <input type="radio" name="pizza" id="choice_2" value="Multigrain">
+                                    <label for="choice_2">Multigrain</label>
+                                    <br>
+                                    <input type="radio" name="pizza" id="choice_3" value="Choose-stuffed crust">
+                                    <label for="choice_3">Choose-stuffed crust</label>
+                                    <br>
+                                    <input type="radio" name="pizza" id="choice_4" value="Gluten-free">
+                                    <label for="choice_4">Gluten-free</label>    
+                                </fieldset>
+                        </div>
+
+                        <br>
+
+                        <div class="topping">
+                            <fieldset>
+
+                                <legend>Toppings (Choose as many as you want):</legend>
+                                    <input type="checkbox" name="sauce" id="num_1" value="Red Sauce">
+                                    <label for="num_1">Red Sauce</label>
+                                    <br>
+                                    <input type="checkbox" name="sauce" id="num_2" value="White Sauce">
+                                    <label for="num_2">White Sauce</label>
+                                    <br>
+                                    <input type="checkbox" name="sauce" id="num_3" value="Mozzarella Cheese">
+                                    <label for="num_3">Mozzarella Chesse</label>
+                                    <br>
+                                    <input type="checkbox" name="sauce" id="num_4" value="Pepperoni">
+                                    <label for="num_4">Pepperoni</label>
+                                    <br>
+                                    <input type="checkbox" name="sauce" id="num_5" value="Mushrooms">
+                                    <label for="num_5">Mushrooms</label>
+                                    <br>
+                                    <input type="checkbox" name="sauce" id="num_6" value="Peppers">
+                                    <label for="num_6">Peppers</label>
+                                    <br>
+                                    <input type="checkbox" name="sauce" id="num_7" value="Anchovies">
+                                    <label for="num_7">Anchovies</label>
+
+                            </fieldset>
+                        </div>
+
+                        <br>
+
+                            <div class="quantity">
+                                <fieldset>
+                                    <legend>Number</legend>
+                                    How many pizzas:<input type="number" min="1" max="20" required>
+                                </fieldset></div>
+                                    
+                    </fieldset>
+                        <input type="submit" value="Bring me a pizza">
+                        <input type="reset" value="Reset">
+                </form>
+            </div>
+        
+    </div>
+    
+
+    
+
+    
+
+
+</body>
+</html>
