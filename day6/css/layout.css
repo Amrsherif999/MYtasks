@@ -1,0 +1,89 @@
+*{
+    color: rgb(44, 69, 214);
+    text-align: center; 
+}
+:root{
+    --Color: white;
+}
+body{
+    background-image: url("../images/Picsart_26-07-12_19-53-34-168.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center; 
+    background-size: cover;
+    min-height: 100vh; 
+}  
+
+.header img{
+    width: 70px;
+    height: 90px;
+    max-width: 100%;
+}
+
+.header{
+    width: 98%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+h1,
+h2,
+h3{
+   color:var(--Color) !important; /* to prevent from editing or override*/
+}
+
+p,
+li{
+    --Color:rgb(129, 136, 224);
+    color: var(--Color);
+}
+
+a > button{
+    --Color:rgb(129, 136, 224);
+    color: var(--Color);
+}
+
+button{
+    background-color: black;
+}
+
+button:hover{
+    background-color: rgb(56, 50, 105);
+}
+
+.skills-section ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.skills-section li{
+    cursor: help;
+}
+
+.contact-section a button {
+    cursor: pointer;
+}
+
+.footer a{
+    cursor: grab;
+}
+
+.header img{
+    width: 70px;
+}
+
+.skills-section{
+    width: 200px;
+    height: 50px;
+    overflow: auto;
+    margin: auto;
+}
